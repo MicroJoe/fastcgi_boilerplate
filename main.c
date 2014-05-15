@@ -1,5 +1,4 @@
 #include <fcgi_stdio.h> /* fcgi library; put it first*/
-
 #include <stdlib.h>
 
 char *elems[] = {
