@@ -62,6 +62,22 @@ instead :
     $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/
     $ make
 
+## Running
+
+Simply type the following command in order to run your FastCGI app :
+
+    $ make server
+
+You can interrupt the server with `^C`.
+
+Here is final result :
+
+![FastCGI works!](https://i.imgur.com/Jy11rOu.png)
+
+You can edit `Makefile` in order to change server address and port (default is
+127.0.0.1:9000) but do not forget to adapt your HTTP server's configuration
+too.
+
 ## Use in production
 
 This software configuration was not secured for production use. Please secure
