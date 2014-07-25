@@ -5,13 +5,19 @@ used as a base architecture for C FastCGI applications.
 
 ## Installing FastCGI
 
-You will need to download, compile and install FastCGI on your computer. Since
-there are not many compiled versions of this, I personally recommend you to
-build it from source.
+### From your package manager
+
+On the Archlinux distribution you can install FastCGI using pacman:
+
+    :::console
+    $ pacman -S fcgi
+
+### From source
 
 Simply download [FastCGI source code from official website](http://fastcgi.com/dist/fastcgi.tar.gz)
 and run the following commands :
 
+    :::console
     $ tar -xzvf fastcgi.tar.gz
     $ cd fcgi-2.x.x-SNAP-xxxxxxxxxx
     $ ./configure
